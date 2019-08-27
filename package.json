@@ -1,0 +1,30 @@
+{
+  "name": "auction-system",
+  "version": "1.0.0",
+  "description": "An application where people can buy and sell their products",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javerianadeem/auction-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javerianadeem/auction-system/issues"
+  },
+  "homepage": "https://github.com/javerianadeem/auction-system#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.11",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
